@@ -9,18 +9,8 @@ public class cake{
         
         Cake[] cakes=new Cake[5];
         
-        Scanner sc = new Scanner(System.in);
+      
 
-        for(int i =0;i<cakes.length;i++)
-        {
-            int cakeId = sc.nextInt();sc.nextLine();
-            String cakeName = sc.nextLine();
-            int pound = sc.nextInt();
-            double pricePerPound = sc.nextDouble();
-            boolean b=sc.nextBoolean();
-            cakes[i] = new Cake(cakeId,cakeName,pound,pricePerPound,b);
-            
-        }
         
         
         
